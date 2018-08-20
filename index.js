@@ -4,14 +4,15 @@ function takeANumber(currentLine, newPersonsName) {
 }
 
 function nowServing(katzDeliLine) {
-  if (katzDeliLine.length === 0) {
-    return 'There is nobody waiting to be served!'
-  } else {
-    let firstPerson = katzDeliLine[0]
-    katzDeliLine.shift()
-    return `Currently serving ${firstPerson}.`
-  }
+    if (katzDeliLine.length === 0) {
+      return 'There is nobody waiting to be served!'
+    } else {
+      let currentPerson = katzDeliLine[0]
+      katzDeliLine.shift()
+      return `Currently serving ${currentPerson}.`
+    }
 }
+
 
 function currentLine(line) {
   if (line.length === 0) {
