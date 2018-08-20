@@ -14,13 +14,13 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(line) {
-  let numberedArray = []
+  let stringArray = []
   if (line.length === 0) {
     return `The line is currently empty.`
   } else {
     for (var i = 0; i < line.length; i++) {
-      numberedArray = `${i}. ${line[i]}`
-      numberedArray.push()
+      let numberedElements = `${i}. ${line[i]}`
+      numberedElements.push()
     }
     return `The line is currently: ${numberedArray}`
 
