@@ -22,7 +22,7 @@ function currentLine(line) {
       numberedArray = `${i}. ${line[i]}`
       numberedArray.push()
     }
-    
+
     return `The line is currently: ${line}`
 
   }
