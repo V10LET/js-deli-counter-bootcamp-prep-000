@@ -19,7 +19,7 @@ function currentLine(line) {
     return `The line is currently empty.`
   } else {
     for (var i = 0; i < line.length; i++) {
-      let numberedElements = `${i}. ${line[i]}`
+      let numberedElements = `${i + 1}. ${line[i]}`
       stringArray.push(numberedElements)
     }
     return `The line is currently: ${stringArray}`
