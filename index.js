@@ -7,7 +7,9 @@ function nowServing(katzDeliLine) {
   if (katzDeliLine.length === 0) {
     `There is nobody waiting in line.`
   } else {
-    katzDeliLine[0]
-    
+    let currentPerson = katzDeliLine[0]
+    katzDeliLine.shift()
+    return "Currently serviing " + currentPerson + "."
+
   }
 }
