@@ -20,7 +20,7 @@ function currentLine(line) {
   } else {
     for (var i = 0; i < line.length; i++) {
       let numberedElements = `${i}. ${line[i]}`
-      numberedElements.push()
+      stringArray.push(numberedElements)
     }
     return `The line is currently: ${numberedArray}`
 
