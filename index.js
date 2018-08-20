@@ -23,7 +23,7 @@ function currentLine(line) {
       stringArray.push(numberedElements)
     }
     let completeArray = stringArray.join(', ')
-    return `The line is currently: ${stringArray}`
+    return `The line is currently: ${completeArray}`
 
   }
 }
