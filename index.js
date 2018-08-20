@@ -21,8 +21,7 @@ function currentLine(line) {
     for (var i = 0; i < line.length; i++) {
       numberedArray = `${i}. ${line[i]}`
     }
-
-    return `The line is currently: ${line}`
+    return `The line is currently: ${numberedArray}`
 
   }
 }
