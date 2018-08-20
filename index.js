@@ -1,4 +1,4 @@
 function takeANumber(currentLine, newPersonsName) {
-
-  return `Welcome, ${newPersonsName}. You are number ${currentLine.length} in line.`
+  let currentLinePlace = currentLine.length + 1
+  return `Welcome, ${newPersonsName}. You are number ${currentLinePlace} in line.`
 }
